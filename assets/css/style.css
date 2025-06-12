@@ -3,3 +3,86 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+header {
+  max-width: 100%;
+  padding: 20px;
+}
+
+body {}
+
+/* LAYOUT */
+
+.container {
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.col {
+  width: calc(100% / 3 - 20px);
+}
+
+/* HEADER */
+.banner {
+  display: flex;
+  padding: 25px auto;
+  flex-direction: row;
+
+}
+
+.flex {
+  flex-wrap: wrap;
+}
+
+
+.left li,
+.right li {
+  list-style-type: none;
+}
+
+
+
+
+/* CONTENT */
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.b-1px {
+  border: 1px solid black;
+}
+
+/* WIDTHS */
+
+.w-100 {
+  width: 100px;
+}
+
+/* COLORS */
+
+.bg-silver {
+  background-color: gray;
+}
+
+.bg-gold {
+  background-color: goldenrod;
+}
+
+.bg-blue {
+  background-color: blue;
+}
