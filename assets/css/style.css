@@ -20,7 +20,7 @@ body {}
 /* LAYOUT */
 
 .container {
-  padding-top: 100px;
+  padding-top: 40px;
   margin: 60px auto;
   max-width: 1200px;
 }
@@ -65,10 +65,10 @@ body {}
 /* CONTAINER JUMBO */
 
 .jumbo {
-  flex-wrap: wrap;
+
   display: flex;
   margin-top: 70px;
-  height: 700px;
+  height: 600px;
 }
 
 .jumbo h1 {
