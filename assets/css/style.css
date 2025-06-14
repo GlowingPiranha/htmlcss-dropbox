@@ -212,6 +212,10 @@ body {}
   margin-top: 30px;
 }
 
+.mt-60 {
+  margin-top: 60px;
+}
+
 
 
 /* PARTNER */
@@ -264,15 +268,20 @@ body {}
 /* CONTAINER DA SEI */
 
 .grid {
+  justify-content: center;
+  width: 1000px;
   display: flex;
+  margin-top: 40px;
 }
 
 .card {
-  padding: 50px;
+  padding: 15px;
 }
 
+
 .card p {
-  margin-top: 20px;
+  margin: 20px 0;
+
 }
 
 .col .card img {
@@ -281,6 +290,34 @@ body {}
 
 /* CONTAINER H1 E LINK */
 
+.link {
+  padding: 100px 0;
+}
+
+/* FOOTER */
+
+footer {
+  margin-top: 60px;
+  background-color: black;
+  color: #fff;
+}
+
+.colonna ul li {
+  list-style: none;
+  padding: 8px 0;
+}
+
+.colonna {
+  margin-bottom: 50px;
+}
+
+footer .row {
+  justify-content: space-between;
+}
+
+.italiano {
+  padding: 60px 0;
+}
 
 /* CONTENT */
 
@@ -358,6 +395,10 @@ body {}
 
 .w-100x {
   width: 100%;
+}
+
+.w-1000 {
+  width: 1000px;
 }
 
 /* COLORS */
