@@ -85,7 +85,7 @@ body {}
 }
 
 .jumbo-img img {
-  width: 700px;
+  width: 750px;
 }
 
 .jumbo-txt p {
@@ -118,6 +118,11 @@ body {}
   font-weight: 800;
   padding-bottom: 40px;
 
+}
+
+.col p {
+  padding: 5px 0;
+  margin: 5px 0;
 }
 
 .circle {
@@ -156,7 +161,7 @@ body {}
 
 .sm-banner-txt {
   margin: 20px 30px;
-  height: 700px;
+  height: 850px;
 }
 
 
@@ -191,7 +196,7 @@ body {}
   margin: 10px 0;
 }
 
-.dio {
+.col-1000 {
   padding: 0 20px;
   padding-top: 30px;
   width: 1000px;
@@ -199,7 +204,7 @@ body {}
   justify-content: space-between;
 }
 
-.dio-2 {
+.col-1000-2 {
   margin: 20px 20px 40px;
 }
 
@@ -208,6 +213,55 @@ body {}
 }
 
 
+
+/* PARTNER */
+
+.partner {
+  margin-top: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.partner-row {
+  display: flex;
+  height: 600px;
+  width: 1000px;
+}
+
+.partner-img {
+  width: 70%;
+  align-content: center;
+}
+
+.partner-txt {
+  width: 30%;
+  text-align: left;
+  margin: 70px 40px;
+}
+
+.partner-txt h2 {
+  padding: 30px 0;
+}
+
+.partner-txt .btn {
+  align-content: center;
+  margin: 40px 0;
+  width: 150px;
+  color: black;
+  border: 1px solid black;
+  background-color: #fff;
+}
+
+.partner-txt .btn:hover {
+  background-color: #d4d3d3;
+  cursor: pointer;
+}
+
+.partner-img img {
+  width: 100%;
+}
+
+/* CONTAINER DA SEI */
 
 
 
