@@ -263,6 +263,23 @@ body {}
 
 /* CONTAINER DA SEI */
 
+.grid {
+  display: flex;
+}
+
+.card {
+  padding: 50px;
+}
+
+.card p {
+  margin-top: 20px;
+}
+
+.col .card img {
+  width: 100%;
+}
+
+/* CONTAINER H1 E LINK */
 
 
 /* CONTENT */
@@ -332,6 +349,8 @@ body {}
 .w-100 {
   width: 100px;
 }
+
+
 
 .w-700 {
   width: 700px;
